@@ -11,6 +11,7 @@ import * as jwt from "jsonwebtoken";
 
 const JWT_SECRET = process.env.JWT_SECRET || 'taskflow-secret-key-123';
 
+import UserProgress from "@/models/UserProgress";
 import DashboardContainer from "@/components/layout/DashboardContainer";
 
 export default async function Home() {
@@ -20,6 +21,7 @@ export default async function Home() {
   const cookieStore = await cookies();
   const token = (await cookieStore).get('token')?.value;
   let userData = null;
+  let userProgress = null;
   
   if (token) {
     try {
@@ -27,6 +29,10 @@ export default async function Home() {
       if (decoded && decoded.userId) {
         const rawUser = await User.findById(decoded.userId).select('name email avatar').lean();
         userData = serializeUser(rawUser);
+
+        // Fetch user progress for gamification
+        const rawProgress = await UserProgress.findOne({ userId: decoded.userId }).lean();
+        userProgress = rawProgress ? JSON.parse(JSON.stringify(rawProgress)) : null;
       }
     } catch (err) {
       console.error("Auth verify error in dashboard:", err);
@@ -34,17 +40,28 @@ export default async function Home() {
   }
 
   // Fetch tasks sorted by newest first
-  const tasks = await Task.find({}).sort({ createdAt: -1 });
+  const tasks = await Task.find({}).sort({ priority: 1, createdAt: -1 }); // Priority sort then newest
   const serializedTasks = tasks.map(serializeTask);
 
-  const activeCount = serializedTasks.filter((t: any) => t.status?.trim().toLowerCase() !== 'done').length;
+  const activeTasks = serializedTasks.filter((t: any) => t.status?.trim().toLowerCase() !== 'done');
+  const activeCount = activeTasks.length;
   const doneCount = serializedTasks.filter((t: any) => t.status?.trim().toLowerCase() === 'done').length;
+
+  // Identify High Priority (Urgent) tasks
+  const urgentTasks = activeTasks.filter((t: any) => t.priority === 'High');
+  const urgentCount = urgentTasks.length;
+
+  // Identify the "Top Task" (Highest priority active task)
+  const topTask = urgentTasks[0]?.title || activeTasks[0]?.title;
 
   return (
     <DashboardContainer 
       userData={userData} 
+      userProgress={userProgress}
       activeCount={activeCount} 
       doneCount={doneCount}
+      urgentCount={urgentCount}
+      topTask={topTask}
     >
       {/* AI Spotlight Input */}
       <section>
