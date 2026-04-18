@@ -906,3 +906,323 @@
 [2026-04-18T13:07:17.835Z] Profile Request - Header: Missing
 [2026-04-18T13:07:17.839Z] Profile Request - Cookie Token: Missing
 [2026-04-18T13:07:17.840Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:08:10.265Z] Profile Request - Header: Missing
+[2026-04-18T13:08:10.279Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:10.289Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:10.454Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:13.389Z] Profile Request - Header: Missing
+[2026-04-18T13:08:13.391Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:13.392Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:13.566Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:15.246Z] Profile Request - Header: Missing
+[2026-04-18T13:08:15.258Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:15.260Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:15.556Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:17.440Z] Profile Request - Header: Missing
+[2026-04-18T13:08:17.447Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:17.449Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:17.610Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:19.305Z] Profile Request - Header: Missing
+[2026-04-18T13:08:19.331Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:19.334Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:19.487Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:21.350Z] Profile Request - Header: Missing
+[2026-04-18T13:08:21.366Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:21.368Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:21.530Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:23.722Z] Profile Request - Header: Missing
+[2026-04-18T13:08:23.724Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:23.726Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:23.880Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:25.409Z] Profile Request - Header: Missing
+[2026-04-18T13:08:25.411Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:25.411Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:25.564Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:27.783Z] Profile Request - Header: Missing
+[2026-04-18T13:08:27.787Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:27.788Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:28.249Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:30.588Z] Profile Request - Header: Missing
+[2026-04-18T13:08:30.593Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:30.595Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:30.747Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:31.898Z] Profile Request - Header: Missing
+[2026-04-18T13:08:31.925Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:31.926Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:32.125Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:33.508Z] Profile Request - Header: Missing
+[2026-04-18T13:08:33.510Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:33.510Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:33.978Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:35.475Z] Profile Request - Header: Missing
+[2026-04-18T13:08:35.490Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:35.491Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:35.760Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:37.013Z] Profile Request - Header: Missing
+[2026-04-18T13:08:37.030Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:37.032Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:37.304Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:38.741Z] Profile Request - Header: Missing
+[2026-04-18T13:08:38.745Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:38.746Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:39.120Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:40.788Z] Profile Request - Header: Missing
+[2026-04-18T13:08:40.795Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:40.797Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:40.950Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:41.973Z] Profile Request - Header: Missing
+[2026-04-18T13:08:41.979Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:41.980Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:42.323Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:43.942Z] Profile Request - Header: Missing
+[2026-04-18T13:08:43.954Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:43.956Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:44.241Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:45.935Z] Profile Request - Header: Missing
+[2026-04-18T13:08:45.937Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:45.937Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:46.253Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:47.850Z] Profile Request - Header: Missing
+[2026-04-18T13:08:47.864Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:47.865Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:48.117Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:49.271Z] Profile Request - Header: Missing
+[2026-04-18T13:08:49.281Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:49.282Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:49.582Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:51.489Z] Profile Request - Header: Missing
+[2026-04-18T13:08:51.501Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:51.503Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:51.763Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:53.014Z] Profile Request - Header: Missing
+[2026-04-18T13:08:53.024Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:53.025Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:53.220Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:54.441Z] Profile Request - Header: Missing
+[2026-04-18T13:08:54.444Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:54.445Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:54.597Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:56.355Z] Profile Request - Header: Missing
+[2026-04-18T13:08:56.370Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:56.371Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:56.653Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:57.897Z] Profile Request - Header: Missing
+[2026-04-18T13:08:57.911Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:57.912Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:58.203Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:08:59.346Z] Profile Request - Header: Missing
+[2026-04-18T13:08:59.363Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:08:59.364Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:08:59.711Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:01.484Z] Profile Request - Header: Missing
+[2026-04-18T13:09:01.495Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:01.496Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:02.008Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:03.275Z] Profile Request - Header: Missing
+[2026-04-18T13:09:03.284Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:03.285Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:03.746Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:05.006Z] Profile Request - Header: Missing
+[2026-04-18T13:09:05.008Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:05.009Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:05.354Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:07.504Z] Profile Request - Header: Missing
+[2026-04-18T13:09:07.506Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:07.506Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:08.066Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:11.137Z] Profile Request - Header: Missing
+[2026-04-18T13:09:11.149Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:11.151Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:11.311Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:13.746Z] Profile Request - Header: Missing
+[2026-04-18T13:09:13.772Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:13.774Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:14.157Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:17.359Z] Profile Request - Header: Missing
+[2026-04-18T13:09:17.367Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:17.369Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:17.528Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:18.849Z] Profile Request - Header: Missing
+[2026-04-18T13:09:18.854Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:18.855Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:19.239Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:34.749Z] Profile Request - Header: Missing
+[2026-04-18T13:09:34.829Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:34.837Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:35.127Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:36.710Z] Profile Request - Header: Missing
+[2026-04-18T13:09:36.714Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:36.715Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:36.873Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:39.201Z] Profile Request - Header: Missing
+[2026-04-18T13:09:39.210Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:39.213Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:39.366Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:40.680Z] Profile Request - Header: Missing
+[2026-04-18T13:09:40.685Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:40.686Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:40.936Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:42.234Z] Profile Request - Header: Missing
+[2026-04-18T13:09:42.242Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:42.244Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:42.626Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:44.231Z] Profile Request - Header: Missing
+[2026-04-18T13:09:44.234Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:44.236Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:44.510Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:46.129Z] Profile Request - Header: Missing
+[2026-04-18T13:09:46.145Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:46.146Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:46.385Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:47.894Z] Profile Request - Header: Missing
+[2026-04-18T13:09:47.905Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:47.906Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:48.130Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:50.753Z] Profile Request - Header: Missing
+[2026-04-18T13:09:51.000Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:51.001Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:51.157Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:52.870Z] Profile Request - Header: Missing
+[2026-04-18T13:09:52.885Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:52.886Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:53.043Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:54.250Z] Profile Request - Header: Missing
+[2026-04-18T13:09:54.258Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:54.259Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:54.562Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:56.331Z] Profile Request - Header: Missing
+[2026-04-18T13:09:56.358Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:56.359Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:56.526Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:57.690Z] Profile Request - Header: Missing
+[2026-04-18T13:09:57.706Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:57.707Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:58.017Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:09:59.529Z] Profile Request - Header: Missing
+[2026-04-18T13:09:59.546Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:09:59.548Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:09:59.884Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:01.581Z] Profile Request - Header: Missing
+[2026-04-18T13:10:01.588Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:01.589Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:01.834Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:03.224Z] Profile Request - Header: Missing
+[2026-04-18T13:10:03.226Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:03.227Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:03.482Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:04.824Z] Profile Request - Header: Missing
+[2026-04-18T13:10:04.841Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:04.843Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:05.141Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:06.919Z] Profile Request - Header: Missing
+[2026-04-18T13:10:06.921Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:06.922Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:07.156Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:09.461Z] Profile Request - Header: Missing
+[2026-04-18T13:10:09.477Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:09.478Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:09.768Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:11.140Z] Profile Request - Header: Missing
+[2026-04-18T13:10:11.181Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:11.183Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:11.536Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:14.776Z] Profile Request - Header: Missing
+[2026-04-18T13:10:14.788Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:14.789Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:15.508Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:17.897Z] Profile Request - Header: Missing
+[2026-04-18T13:10:17.901Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:17.902Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:18.068Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:20.246Z] Profile Request - Header: Missing
+[2026-04-18T13:10:20.254Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:20.256Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:20.545Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:21.987Z] Profile Request - Header: Missing
+[2026-04-18T13:10:22.000Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:22.001Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:22.275Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:24.284Z] Profile Request - Header: Missing
+[2026-04-18T13:10:24.290Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:24.292Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:24.446Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:26.270Z] Profile Request - Header: Missing
+[2026-04-18T13:10:26.275Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:26.277Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:26.431Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:27.795Z] Profile Request - Header: Missing
+[2026-04-18T13:10:27.797Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:27.798Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:28.197Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:29.900Z] Profile Request - Header: Missing
+[2026-04-18T13:10:29.904Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:29.905Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:30.174Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:32.228Z] Profile Request - Header: Missing
+[2026-04-18T13:10:32.235Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:32.236Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:32.464Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:34.476Z] Profile Request - Header: Missing
+[2026-04-18T13:10:34.486Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:34.488Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:34.721Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:36.186Z] Profile Request - Header: Missing
+[2026-04-18T13:10:36.202Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:36.204Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:36.479Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:37.927Z] Profile Request - Header: Missing
+[2026-04-18T13:10:37.955Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:37.956Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:38.109Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:39.532Z] Profile Request - Header: Missing
+[2026-04-18T13:10:39.549Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:39.551Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:39.914Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:41.100Z] Profile Request - Header: Missing
+[2026-04-18T13:10:41.111Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:41.112Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:41.284Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:43.148Z] Profile Request - Header: Missing
+[2026-04-18T13:10:43.153Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:43.154Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:43.456Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:45.312Z] Profile Request - Header: Missing
+[2026-04-18T13:10:45.324Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:45.326Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:45.618Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:46.958Z] Profile Request - Header: Missing
+[2026-04-18T13:10:46.974Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:46.976Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:47.163Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:48.978Z] Profile Request - Header: Missing
+[2026-04-18T13:10:48.994Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:48.997Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:49.515Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:51.017Z] Profile Request - Header: Missing
+[2026-04-18T13:10:51.019Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:51.020Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:51.616Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:53.110Z] Profile Request - Header: Missing
+[2026-04-18T13:10:53.116Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:53.117Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:53.481Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:54.709Z] Profile Request - Header: Missing
+[2026-04-18T13:10:54.712Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:54.713Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:55.053Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:56.403Z] Profile Request - Header: Missing
+[2026-04-18T13:10:56.418Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:56.419Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:56.631Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:57.946Z] Profile Request - Header: Missing
+[2026-04-18T13:10:57.960Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:57.962Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:10:58.328Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:10:59.918Z] Profile Request - Header: Missing
+[2026-04-18T13:10:59.936Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:10:59.938Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:11:00.457Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:11:01.886Z] Profile Request - Header: Missing
+[2026-04-18T13:11:01.898Z] Profile Request - Cookie Token: Present
+[2026-04-18T13:11:01.900Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
+[2026-04-18T13:11:02.054Z] Profile Request - Success. Avatar: Found
