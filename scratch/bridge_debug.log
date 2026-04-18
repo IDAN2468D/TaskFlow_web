@@ -711,3 +711,198 @@
 [2026-04-18T09:25:09.973Z] Profile Request - Header: Present
 [2026-04-18T09:25:09.976Z] Profile Request - Decoded UserID: 69d9070ddda7f9b4ad83b4c1
 [2026-04-18T09:25:12.536Z] Profile Request - Success. Avatar: Found
+[2026-04-18T13:05:31.227Z] Profile Request - Header: Missing
+[2026-04-18T13:05:31.234Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:31.235Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:32.653Z] Profile Request - Header: Missing
+[2026-04-18T13:05:32.654Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:32.655Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:35.849Z] Profile Request - Header: Missing
+[2026-04-18T13:05:35.863Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:35.864Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:37.390Z] Profile Request - Header: Missing
+[2026-04-18T13:05:37.451Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:37.453Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:39.751Z] Profile Request - Header: Missing
+[2026-04-18T13:05:39.760Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:39.760Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:41.265Z] Profile Request - Header: Missing
+[2026-04-18T13:05:41.269Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:41.271Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:42.568Z] Profile Request - Header: Missing
+[2026-04-18T13:05:42.574Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:42.575Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:43.871Z] Profile Request - Header: Missing
+[2026-04-18T13:05:43.873Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:43.874Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:45.356Z] Profile Request - Header: Missing
+[2026-04-18T13:05:45.360Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:45.361Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:46.944Z] Profile Request - Header: Missing
+[2026-04-18T13:05:46.950Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:46.951Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:48.404Z] Profile Request - Header: Missing
+[2026-04-18T13:05:48.409Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:48.410Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:50.239Z] Profile Request - Header: Missing
+[2026-04-18T13:05:50.251Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:50.253Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:52.974Z] Profile Request - Header: Missing
+[2026-04-18T13:05:52.980Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:52.980Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:54.123Z] Profile Request - Header: Missing
+[2026-04-18T13:05:54.126Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:54.127Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:56.494Z] Profile Request - Header: Missing
+[2026-04-18T13:05:56.499Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:56.500Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:05:58.169Z] Profile Request - Header: Missing
+[2026-04-18T13:05:58.174Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:05:58.175Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:01.240Z] Profile Request - Header: Missing
+[2026-04-18T13:06:01.245Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:01.246Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:03.516Z] Profile Request - Header: Missing
+[2026-04-18T13:06:03.527Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:03.528Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:04.936Z] Profile Request - Header: Missing
+[2026-04-18T13:06:04.938Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:04.939Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:06.677Z] Profile Request - Header: Missing
+[2026-04-18T13:06:06.686Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:06.687Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:08.399Z] Profile Request - Header: Missing
+[2026-04-18T13:06:08.416Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:08.417Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:09.768Z] Profile Request - Header: Missing
+[2026-04-18T13:06:09.771Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:09.779Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:11.201Z] Profile Request - Header: Missing
+[2026-04-18T13:06:11.206Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:11.207Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:12.665Z] Profile Request - Header: Missing
+[2026-04-18T13:06:12.667Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:12.668Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:14.101Z] Profile Request - Header: Missing
+[2026-04-18T13:06:14.105Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:14.107Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:16.811Z] Profile Request - Header: Missing
+[2026-04-18T13:06:16.814Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:16.815Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:18.323Z] Profile Request - Header: Missing
+[2026-04-18T13:06:18.331Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:18.350Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:20.171Z] Profile Request - Header: Missing
+[2026-04-18T13:06:20.177Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:20.177Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:21.719Z] Profile Request - Header: Missing
+[2026-04-18T13:06:21.726Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:21.727Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:23.239Z] Profile Request - Header: Missing
+[2026-04-18T13:06:23.245Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:23.247Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:25.003Z] Profile Request - Header: Missing
+[2026-04-18T13:06:25.009Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:25.011Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:26.173Z] Profile Request - Header: Missing
+[2026-04-18T13:06:26.179Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:26.180Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:27.494Z] Profile Request - Header: Missing
+[2026-04-18T13:06:27.501Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:27.503Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:28.887Z] Profile Request - Header: Missing
+[2026-04-18T13:06:28.910Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:28.915Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:30.611Z] Profile Request - Header: Missing
+[2026-04-18T13:06:30.618Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:30.618Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:31.870Z] Profile Request - Header: Missing
+[2026-04-18T13:06:31.878Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:31.880Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:33.261Z] Profile Request - Header: Missing
+[2026-04-18T13:06:33.264Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:33.265Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:34.700Z] Profile Request - Header: Missing
+[2026-04-18T13:06:34.704Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:34.705Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:36.114Z] Profile Request - Header: Missing
+[2026-04-18T13:06:36.117Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:36.117Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:37.245Z] Profile Request - Header: Missing
+[2026-04-18T13:06:37.253Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:37.254Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:38.674Z] Profile Request - Header: Missing
+[2026-04-18T13:06:38.679Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:38.679Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:40.043Z] Profile Request - Header: Missing
+[2026-04-18T13:06:40.050Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:40.051Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:41.387Z] Profile Request - Header: Missing
+[2026-04-18T13:06:41.393Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:41.394Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:42.797Z] Profile Request - Header: Missing
+[2026-04-18T13:06:42.802Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:42.803Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:43.975Z] Profile Request - Header: Missing
+[2026-04-18T13:06:43.979Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:43.980Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:45.203Z] Profile Request - Header: Missing
+[2026-04-18T13:06:45.208Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:45.209Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:46.404Z] Profile Request - Header: Missing
+[2026-04-18T13:06:46.409Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:46.410Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:47.626Z] Profile Request - Header: Missing
+[2026-04-18T13:06:47.633Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:47.634Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:48.957Z] Profile Request - Header: Missing
+[2026-04-18T13:06:48.962Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:48.963Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:50.658Z] Profile Request - Header: Missing
+[2026-04-18T13:06:50.659Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:50.660Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:52.006Z] Profile Request - Header: Missing
+[2026-04-18T13:06:52.011Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:52.012Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:54.447Z] Profile Request - Header: Missing
+[2026-04-18T13:06:54.464Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:54.471Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:56.378Z] Profile Request - Header: Missing
+[2026-04-18T13:06:56.408Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:56.409Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:57.896Z] Profile Request - Header: Missing
+[2026-04-18T13:06:57.903Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:57.904Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:06:59.641Z] Profile Request - Header: Missing
+[2026-04-18T13:06:59.643Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:06:59.644Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:01.681Z] Profile Request - Header: Missing
+[2026-04-18T13:07:01.690Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:01.691Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:03.552Z] Profile Request - Header: Missing
+[2026-04-18T13:07:03.561Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:03.569Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:04.931Z] Profile Request - Header: Missing
+[2026-04-18T13:07:04.935Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:04.937Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:06.516Z] Profile Request - Header: Missing
+[2026-04-18T13:07:06.521Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:06.523Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:08.070Z] Profile Request - Header: Missing
+[2026-04-18T13:07:08.073Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:08.075Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:09.758Z] Profile Request - Header: Missing
+[2026-04-18T13:07:09.768Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:09.769Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:12.845Z] Profile Request - Header: Missing
+[2026-04-18T13:07:12.852Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:12.853Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:14.913Z] Profile Request - Header: Missing
+[2026-04-18T13:07:14.918Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:14.919Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:16.197Z] Profile Request - Header: Missing
+[2026-04-18T13:07:16.204Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:16.205Z] Profile Request - Unauthorized (No Token)
+[2026-04-18T13:07:17.835Z] Profile Request - Header: Missing
+[2026-04-18T13:07:17.839Z] Profile Request - Cookie Token: Missing
+[2026-04-18T13:07:17.840Z] Profile Request - Unauthorized (No Token)
