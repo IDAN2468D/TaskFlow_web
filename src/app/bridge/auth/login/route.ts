@@ -14,6 +14,8 @@ export async function POST(req: Request) {
     
     return NextResponse.json(result);
   } catch (err: any) {
-    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+    fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Login Crash: ' + err.message + '\n');
+    console.error('Login Route Error:', err);
+    return NextResponse.json({ error: 'Internal Server Error: ' + err.message }, { status: 500 });
   }
 }

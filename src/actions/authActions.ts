@@ -4,6 +4,7 @@ import bcrypt from 'bcryptjs';
 import * as jwt from 'jsonwebtoken';
 import { cookies } from 'next/headers';
 import mongoose from 'mongoose';
+import fs from 'fs';
 import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
 import AuthSession from '@/models/AuthSession';
@@ -29,6 +30,7 @@ export async function registerUser(formData: z.infer<typeof AuthSchema>) {
     // Check if user exists
     const existingUser = await User.findOne({ email });
     if (existingUser) {
+      fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Registration Failed: User already exists - ' + email + '\n');
       return { error: 'User already exists' };
     }
 
@@ -70,6 +72,7 @@ export async function registerUser(formData: z.infer<typeof AuthSchema>) {
     };
   } catch (err: any) {
     console.error('Registration error:', err);
+    fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Registration Error: ' + (err.message || 'Unknown') + '\n');
     return { error: err.message || 'Failed to register' };
   }
 }
@@ -86,12 +89,14 @@ export async function loginUser(formData: z.infer<typeof AuthSchema>) {
     // Find user
     const user = await User.findOne({ email });
     if (!user) {
+      fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Login Failed: User not found - ' + email + '\n');
       return { error: 'Invalid email or password' };
     }
 
     // Verify password
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
+      fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Login Failed: Password mismatch - ' + email + '\n');
       return { error: 'Invalid email or password' };
     }
 
@@ -111,6 +116,8 @@ export async function loginUser(formData: z.infer<typeof AuthSchema>) {
       path: '/',
     });
 
+    fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Login Success: ' + email + '\n');
+
     return {
       success: true,
       token,
@@ -123,6 +130,7 @@ export async function loginUser(formData: z.infer<typeof AuthSchema>) {
     };
   } catch (err: any) {
     console.error('Login error:', err);
+    fs.appendFileSync('auth_debug.log', new Date().toISOString() + ' - Login Error: ' + (err.message || 'Unknown') + '\n');
     return { error: err.message || 'Failed to login' };
   }
 }
