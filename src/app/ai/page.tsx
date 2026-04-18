@@ -26,18 +26,18 @@ export default function AISuitePage() {
 
           <section className="relative group">
             <div className="absolute inset-0 bg-indigo-500/5 blur-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
-            <div className="relative p-10 rounded-[40px] bg-[#18181b]/50 backdrop-blur-3xl border border-white/5 space-y-8 shadow-2xl overflow-hidden">
+            <div className="relative p-10 rounded-outer bg-surface-mid/50 backdrop-blur-3xl border border-white/5 space-y-8 shadow-2xl overflow-hidden">
               <div className="flex flex-row-reverse items-center justify-between">
                 <h3 className="text-xl font-black text-white tracking-tight">AI Insights Pool</h3>
                 <Cpu className="w-5 h-5 text-indigo-400/50" />
               </div>
 
               <div className="grid grid-cols-2 gap-6">
-                <div className="p-6 rounded-3xl bg-black/40 border border-white/5 group/stat hover:border-indigo-500/30 transition-colors">
+                <div className="p-6 rounded-inner bg-black/40 border border-white/5 group/stat hover:border-indigo-500/30 transition-colors">
                   <p className="text-[11px] text-zinc-500 uppercase font-black tracking-widest mb-2 text-right">Voice Logs</p>
                   <p className="text-4xl font-black text-indigo-400 group-hover:scale-110 transition-transform origin-right">12</p>
                 </div>
-                <div className="p-6 rounded-3xl bg-black/40 border border-white/5 group/stat hover:border-emerald-500/30 transition-colors">
+                <div className="p-6 rounded-inner bg-black/40 border border-white/5 group/stat hover:border-emerald-500/30 transition-colors">
                   <p className="text-[11px] text-zinc-500 uppercase font-black tracking-widest mb-2 text-right">Accuracy</p>
                   <p className="text-4xl font-black text-emerald-400 group-hover:scale-110 transition-transform origin-right">98%</p>
                 </div>
@@ -66,7 +66,7 @@ export default function AISuitePage() {
               <h2 className="text-sm font-black text-slate-500 uppercase tracking-[0.25em]">Real-time Team Activity</h2>
             </div>
 
-            <div className="bg-[#18181b]/30 backdrop-blur-2xl rounded-[40px] border border-white/5 overflow-hidden shadow-2xl min-h-[600px]">
+            <div className="bg-surface-mid/30 backdrop-blur-2xl rounded-outer border border-white/5 overflow-hidden shadow-2xl min-h-[600px]">
               <Suspense fallback={
                 <div className="h-[600px] w-full flex flex-col items-center justify-center gap-6">
                   <Loader2 className="w-10 h-10 text-indigo-400 animate-spin" />

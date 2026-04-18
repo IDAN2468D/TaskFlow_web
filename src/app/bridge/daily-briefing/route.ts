@@ -64,7 +64,7 @@ export async function GET(req: NextRequest) {
     const productivityScore = Math.min(Math.round((weeklyAvg / Math.max(totalActive * 0.3, 1)) * 100), 100);
 
     // Generate AI strategic message
-    let aiMessage = 'יום פרודוקטיבי מחכה לך! התמקד במשימות הקריטיות ותתקדם צעד אחרי צעד.';
+    const aiMessage = 'יום פרודוקטיבי מחכה לך! התמקד במשימות הקריטיות ותתקדם צעד אחרי צעד.';
     
     if (activeTasks.length > 0) {
       try {

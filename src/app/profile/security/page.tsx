@@ -21,18 +21,26 @@ import { getSecurityReportAction } from '@/actions/profileActions';
 export default function SecurityCenterPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [securityData, setSecurityData] = useState<any>(null);
-  const [isRefreshing, setIsRefreshing] = useState(false);
-
-  useEffect(() => {
-    loadData();
-  }, []);
+  const [isRefreshing, setIsRefreshing] = useState(true);
 
   const loadData = async () => {
-     setIsRefreshing(true);
      const report = await getSecurityReportAction();
      setSecurityData(report);
      setIsRefreshing(false);
   };
+
+  useEffect(() => {
+    let isMounted = true;
+    const init = async () => {
+      const report = await getSecurityReportAction();
+      if (isMounted) {
+        setSecurityData(report);
+        setIsRefreshing(false);
+      }
+    };
+    init();
+    return () => { isMounted = false; };
+  }, []);
 
   return (
     <main className="min-h-screen bg-[#09090b] text-slate-50 p-6 md:p-12 overflow-x-hidden">
@@ -93,7 +101,7 @@ export default function SecurityCenterPage() {
                     <h3 className="text-white font-black text-sm uppercase tracking-widest">משימות אבטחה</h3>
                  </div>
                  <p className="text-xs text-red-400/80 font-medium text-right leading-relaxed italic">
-                    "לא זוהו פרצות אבטחה ב-30 הימים האחרונים. המערכת ממשיכה לסרוק את התשתית בכל 5 דקות&rlm;."
+                    &quot;לא זוהו פרצות אבטחה ב-30 הימים האחרונים. המערכת ממשיכה לסרוק את התשתית בכל 5 דקות&rlm;.&quot;
                  </p>
               </div>
            </motion.div>

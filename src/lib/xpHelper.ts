@@ -41,7 +41,7 @@ export function getXpRequiredForLevel(level: number): number {
  * Process progress for a skill
  */
 export function processSkillProgress(currentXp: number, currentLevel: number, gain: number): { xp: number, level: number, leveledUp: boolean } {
-  let xp = currentXp + gain;
+  const xp = currentXp + gain;
   let level = currentLevel;
   let leveledUp = false;
 

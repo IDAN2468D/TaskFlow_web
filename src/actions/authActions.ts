@@ -8,7 +8,6 @@ import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
 import AuthSession from '@/models/AuthSession';
 import { z } from 'zod';
-import crypto from 'crypto';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'taskflow-secret-key-123';
 
@@ -139,14 +138,17 @@ export async function loginWithGoogleAction(idToken: string) {
   try {
     const ticket = await client.verifyIdToken({
       idToken,
-      audience: process.env.GOOGLE_CLIENT_ID,
+      audience: [
+        process.env.GOOGLE_CLIENT_ID as string,
+        process.env.GOOGLE_CLIENT_ID_ANDROID as string,
+      ],
     });
     const payload = ticket.getPayload();
     if (!payload || !payload.email) {
       throw new Error('Invalid Google Token');
     }
 
-    const { email, name, picture, sub: googleId } = payload;
+    const { email, name, picture, sub: _googleId } = payload;
 
     await dbConnect();
     

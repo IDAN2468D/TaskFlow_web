@@ -112,7 +112,7 @@ export default function ThemeUpgradePage() {
                     </div>
                     <div className="flex flex-row-reverse items-center gap-3">
                        <Sun size={18} className="text-amber-400" />
-                       <span className="text-xs font-bold text-white">מעבר יום/לילה אוטו'</span>
+                       <span className="text-xs font-bold text-white">מעבר יום/לילה אוטו&apos;</span>
                     </div>
                  </div>
               </div>

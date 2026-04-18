@@ -70,7 +70,7 @@ export async function exportPrdToGoogleDoc(projectId: string, accessToken: strin
     
     // Auto-formatting headers (Quick but effective)
     const headers = ['ELEVATOR PITCH', 'TARGET AUDIENCE', 'CORE FEATURES', 'DESIGN BRIEF', 'TIMELINE'];
-    let fullText = `${project.productName}\n\nELEVATOR PITCH\n${project.elevatorPitch}\n\nTARGET AUDIENCE\n${project.targetAudience}\n\nCORE FEATURES\n${project.coreFeatures.map(f => `• ${f}`).join('\n')}\n\nDESIGN BRIEF\n${project.designBrief}\n\nTIMELINE\n${project.estimatedDevTime}\n`;
+    const fullText = `${project.productName}\n\nELEVATOR PITCH\n${project.elevatorPitch}\n\nTARGET AUDIENCE\n${project.targetAudience}\n\nCORE FEATURES\n${project.coreFeatures.map(f => `• ${f}`).join('\n')}\n\nDESIGN BRIEF\n${project.designBrief}\n\nTIMELINE\n${project.estimatedDevTime}\n`;
 
     headers.forEach(header => {
       const startIndex = fullText.indexOf(header);

@@ -50,7 +50,7 @@ export default function RegisterPage() {
         <div className="flex flex-col items-center mb-10 text-center">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="w-16 h-16 bg-indigo-500/15 rounded-2xl flex items-center justify-center shadow-2xl shadow-indigo-500/20 border border-indigo-500/30 mb-6"
+            className="w-16 h-16 bg-surface-mid rounded-inner flex items-center justify-center shadow-2xl shadow-indigo-500/20 border border-white/10 mb-6"
           >
             <Sparkles className="w-8 h-8 text-indigo-500 fill-indigo-500/20" />
           </motion.div>
@@ -58,7 +58,7 @@ export default function RegisterPage() {
           <p className="text-slate-400 font-medium">הצטרף למהפכת הפרודוקטיביות עם AI&rlm;</p>
         </div>
 
-        <div className="bg-[#18181b]/50 backdrop-blur-xl p-8 rounded-[32px] border border-white/5 shadow-2xl">
+        <div className="bg-surface-mid/80 backdrop-blur-xl p-8 rounded-outer border border-white/5 shadow-2xl">
           <form onSubmit={handleSubmit} className="space-y-5">
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-300 mr-2">שם מלא</label>
@@ -70,7 +70,7 @@ export default function RegisterPage() {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   placeholder="ישראל ישראלי"
-                  className="w-full bg-[#09090b]/50 border border-white/5 rounded-2xl py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
+                  className="w-full bg-surface-low border border-white/5 rounded-button py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
                 />
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function RegisterPage() {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   placeholder="name@example.com"
-                  className="w-full bg-[#09090b]/50 border border-white/5 rounded-2xl py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
+                  className="w-full bg-surface-low border border-white/5 rounded-button py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
                 />
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function RegisterPage() {
                   value={formData.password}
                   onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                   placeholder="לפחות 6 תווים"
-                  className="w-full bg-[#09090b]/50 border border-white/5 rounded-2xl py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
+                  className="w-full bg-surface-low border border-white/5 rounded-button py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
                 />
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function RegisterPage() {
               <motion.div
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="bg-red-500/10 border border-red-500/20 text-red-500 p-4 rounded-2xl text-sm font-bold text-center"
+                className="bg-red-500/10 border border-red-500/20 text-red-500 p-4 rounded-button text-sm font-bold text-center"
               >
                 {error}
               </motion.div>
@@ -118,7 +118,7 @@ export default function RegisterPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 rounded-2xl shadow-lg shadow-indigo-600/20 transition-all flex items-center justify-center gap-2 group disabled:opacity-50 mt-4"
+              className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 rounded-button shadow-lg shadow-indigo-600/20 transition-all flex items-center justify-center gap-2 group disabled:opacity-50 mt-4"
             >
               {loading ? (
                 <Loader2 className="w-5 h-5 animate-spin" />

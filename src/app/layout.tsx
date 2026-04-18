@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 };
 
 import Sidebar from "@/components/layout/Sidebar";
+import MobileNav from "@/components/layout/MobileNav";
 
 export default function RootLayout({
   children,
@@ -35,9 +36,10 @@ export default function RootLayout({
     >
         <body className="h-screen flex bg-[#09090b] text-slate-50 overflow-hidden">
           <Sidebar />
-          <main className="flex-1 overflow-y-auto overflow-x-hidden flex flex-col">
+          <main className="flex-1 overflow-y-auto overflow-x-hidden flex flex-col pb-24 lg:pb-0">
             {children}
           </main>
+          <MobileNav />
           <Toaster richColors position="top-center" theme="dark" />
           <Script src="https://accounts.google.com/gsi/client" strategy="lazyOnload" />
         </body>

@@ -47,7 +47,7 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="w-64 bg-[#18181b] border-l border-[#27272a] flex flex-col h-screen sticky top-0 shadow-2xl z-50">
+    <aside className="hidden lg:flex w-64 bg-[#18181b] border-l border-[#27272a] flex-col h-screen sticky top-0 shadow-2xl z-50">
       <div className="p-8 flex items-center gap-3">
         <div className="w-10 h-10 bg-indigo-500/15 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-500/20 border border-indigo-500/30">
           <Zap className="w-6 h-6 text-indigo-500 fill-indigo-500/20" />
@@ -83,7 +83,7 @@ export default function Sidebar() {
       <div className="p-6 border-t border-white/5 space-y-4">
         <Link 
           href="/profile" 
-          className="flex flex-row-reverse items-center gap-3 p-3 bg-white/[0.03] rounded-2xl border border-white/5 hover:bg-white/[0.08] transition-all cursor-pointer group"
+          className="flex flex-row items-center gap-3 p-3 bg-white/[0.03] rounded-2xl border border-white/5 hover:bg-white/[0.08] transition-all cursor-pointer group"
         >
           {userData?.avatar ? (
             <img 
@@ -101,7 +101,7 @@ export default function Sidebar() {
             <p className="text-sm font-black text-white truncate group-hover:text-indigo-300 transition-colors">
               {userData?.name || "אסטרטג"}
             </p>
-            <div className="flex flex-row-reverse items-center gap-1.5">
+            <div className="flex flex-row items-center gap-1.5">
                <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest">מחובר</p>
             </div>

@@ -70,17 +70,20 @@ export default async function Home() {
 
       {/* Main Content: Task Board */}
       <section>
-        <div className="flex flex-row-reverse items-center justify-between mb-10 px-4">
-          <div className="flex flex-row-reverse items-center gap-4">
-            <div className="w-10 h-10 bg-indigo-500/10 rounded-xl flex items-center justify-center border border-indigo-500/20">
-              <LayoutDashboard className="w-5 h-5 text-indigo-400" />
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 md:mb-14 px-4 gap-6">
+          <div className="flex flex-row items-center gap-4">
+            <div className="w-12 h-12 md:w-16 md:h-16 bg-indigo-500/10 rounded-[20px] md:rounded-[28px] flex items-center justify-center border border-indigo-500/20 shadow-xl backdrop-blur-md">
+              <LayoutDashboard className="w-6 h-6 md:w-8 md:h-8 text-indigo-400" />
             </div>
-            <h2 className="text-3xl font-black text-white tracking-tighter">המשימות שלך</h2>
+            <div className="text-right">
+              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tighter leading-tight">המשימות שלך</h2>
+              <p className="text-slate-500 text-xs md:text-sm font-medium tracking-tight">ניהול לוגיסטי של סדר היום</p>
+            </div>
           </div>
           
-          <div className="flex items-center gap-3 bg-white/5 px-4 py-2 rounded-2xl border border-white/5 text-[11px] font-black text-slate-400 uppercase tracking-widest">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
-            מעודכן לזמן אמת
+          <div className="self-end md:self-center flex items-center gap-3 bg-white/5 px-4 md:px-6 py-2 md:py-3 rounded-full border border-white/10 text-[9px] md:text-[11px] font-black text-slate-400 uppercase tracking-widest backdrop-blur-md">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)] animate-pulse" />
+            Live Intelligence Active
           </div>
         </div>
         

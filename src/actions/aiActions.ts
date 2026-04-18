@@ -122,7 +122,7 @@ export async function decomposeTaskWithAI(prompt: string) {
     let taskData;
     try {
       taskData = JSON.parse(responseText.trim());
-    } catch (parseError) {
+    } catch (_parseError) {
       console.error("Failed to parse AI JSON. Raw output:", responseText);
       throw new Error("AI returned invalid data format.");
     }
@@ -163,7 +163,7 @@ export async function decomposeTaskWithAI(prompt: string) {
 export async function generateTaskInsights(taskId: string) {
   try {
     await dbConnect();
-  } catch (dbError) {
+  } catch (_dbError) {
     throw new Error("Database connection failed.");
   }
 
@@ -211,12 +211,12 @@ export async function generateTaskInsights(taskId: string) {
 export async function analyzeAndPrioritize() {
   try {
     await dbConnect();
-  } catch (dbError) {
+  } catch (_dbError) {
     throw new Error("Database connection failed.");
   }
 
   // Auth check
-  const userId = await getUserIdFromToken();
+  const _userId = await getUserIdFromToken();
 
   try {
     const tasks = await Task.find({ status: { $ne: "Done" } })
@@ -256,7 +256,7 @@ export async function analyzeAndPrioritize() {
     let priorityMapping;
     try {
       priorityMapping = JSON.parse(responseText.trim());
-    } catch (parseError) {
+    } catch (_parseError) {
       throw new Error("AI returned malformed prioritization data.");
     }
 
@@ -286,7 +286,7 @@ export async function analyzeAndPrioritize() {
 export async function generatePRD(idea: string) {
   try {
     await dbConnect();
-  } catch (dbError) {
+  } catch (_dbError) {
     throw new Error("Database connection failed.");
   }
 
@@ -318,7 +318,7 @@ export async function generatePRD(idea: string) {
     let prdData;
     try {
       prdData = JSON.parse(responseText.trim());
-    } catch (parseError) {
+    } catch (_parseError) {
       throw new Error("AI returned malformed PRD JSON.");
     }
 
@@ -383,7 +383,7 @@ export async function askAIAssistant(message: string, history: any[]) {
 export async function getStrategicBriefingAction() {
   try {
     await dbConnect();
-  } catch (dbError) {
+  } catch (_dbError) {
     throw new Error("Database connection failed.");
   }
 

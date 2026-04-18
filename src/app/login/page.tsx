@@ -79,7 +79,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center mb-10">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="w-16 h-16 bg-indigo-500/15 rounded-2xl flex items-center justify-center shadow-2xl shadow-indigo-500/20 border border-indigo-500/30 mb-6"
+            className="w-16 h-16 bg-surface-mid rounded-inner flex items-center justify-center shadow-2xl shadow-indigo-500/20 border border-white/10 mb-6"
           >
             <Smartphone className="w-8 h-8 text-indigo-500 fill-indigo-500/20" />
           </motion.div>
@@ -87,17 +87,17 @@ export default function LoginPage() {
           <p className="text-slate-400 font-medium">הכנס פרטים או סנכרן עם המובייל&rlm;</p>
         </div>
 
-        <div className="bg-[#18181b]/50 backdrop-blur-xl p-8 rounded-[32px] border border-white/5 shadow-2xl">
-          <div className="flex gap-2 mb-8 bg-black/20 p-1 rounded-2xl border border-white/5">
+        <div className="bg-surface-mid/80 backdrop-blur-xl p-8 rounded-outer border border-white/5 shadow-2xl">
+          <div className="flex gap-2 mb-8 bg-black/20 p-1 rounded-inner border border-white/5">
             <button 
               onClick={() => setIsPairingMode(false)}
-              className={`flex-1 py-2.5 rounded-xl text-sm font-bold transition-all ${!isPairingMode ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'text-slate-500 hover:text-slate-300'}`}
+              className={`flex-1 py-2.5 rounded-button text-sm font-bold transition-all ${!isPairingMode ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'text-slate-500 hover:text-slate-300'}`}
             >
               התחברות
             </button>
             <button 
               onClick={handleStartPairing}
-              className={`flex-1 py-2.5 rounded-xl text-sm font-bold transition-all ${isPairingMode ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'text-slate-500 hover:text-slate-300'}`}
+              className={`flex-1 py-2.5 rounded-button text-sm font-bold transition-all ${isPairingMode ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'text-slate-500 hover:text-slate-300'}`}
             >
               סנכרון מובייל
             </button>
@@ -115,7 +115,7 @@ export default function LoginPage() {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="name@example.com"
-                    className="w-full bg-[#09090b]/50 border border-white/5 rounded-2xl py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
+                    className="w-full bg-surface-low border border-white/5 rounded-button py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
                   />
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function LoginPage() {
                     value={formData.password}
                     onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                     placeholder="••••••••"
-                    className="w-full bg-[#09090b]/50 border border-white/5 rounded-2xl py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
+                    className="w-full bg-surface-low border border-white/5 rounded-button py-4 pr-12 pl-4 text-white placeholder:text-slate-600 focus:outline-none focus:border-indigo-500/50 transition-all font-medium"
                   />
                 </div>
               </div>
@@ -139,7 +139,7 @@ export default function LoginPage() {
                 <motion.div
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
-                  className="bg-red-500/10 border border-red-500/20 text-red-500 p-4 rounded-2xl text-sm font-bold text-center"
+                  className="bg-red-500/10 border border-red-500/20 text-red-500 p-4 rounded-button text-sm font-bold text-center"
                 >
                   {error}
                 </motion.div>
@@ -148,7 +148,7 @@ export default function LoginPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 rounded-2xl shadow-lg shadow-indigo-600/20 transition-all flex items-center justify-center gap-2 group disabled:opacity-50"
+                className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 rounded-button shadow-lg shadow-indigo-600/20 transition-all flex items-center justify-center gap-2 group disabled:opacity-50"
               >
                 {loading ? (
                   <Loader2 className="w-5 h-5 animate-spin" />
@@ -188,7 +188,7 @@ export default function LoginPage() {
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <p className="text-slate-400 text-sm font-medium">פתח את האפליקציה במובייל והזן את הקוד:</p>
-                    <div className="bg-black/40 border border-white/5 rounded-3xl p-10 relative overflow-hidden group">
+                    <div className="bg-black/40 border border-white/5 rounded-inner p-10 relative overflow-hidden group">
                       <div className="absolute inset-0 bg-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                       <span className="text-5xl font-black text-white tracking-[0.2em]">{pairingCode || '------'}</span>
                     </div>

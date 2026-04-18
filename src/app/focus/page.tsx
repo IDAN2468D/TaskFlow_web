@@ -181,7 +181,7 @@ export default function FocusModePage() {
         <div className="lg:col-span-5 space-y-12">
           <motion.div variants={itemVariants} className="space-y-6 text-right">
             <div className="flex flex-row-reverse items-center gap-4">
-              <div className="inline-flex flex-row-reverse items-center gap-3 bg-indigo-500/10 px-5 py-2.5 rounded-2xl border border-indigo-500/20 shadow-2xl">
+              <div className="inline-flex flex-row-reverse items-center gap-3 bg-indigo-500/10 px-5 py-2.5 rounded-inner border border-indigo-500/20 shadow-2xl">
                 <div className="relative">
                   <Zap className="w-5 h-5 text-indigo-400 fill-indigo-400/20 animate-pulse" />
                   <div className="absolute inset-0 bg-indigo-400 blur-sm opacity-50" />
@@ -191,7 +191,7 @@ export default function FocusModePage() {
               
               <button 
                 onClick={generateBriefing}
-                className={`flex flex-row-reverse items-center gap-2 px-5 py-2.5 rounded-2xl border transition-all duration-300 ${
+                className={`flex flex-row-reverse items-center gap-2 px-5 py-2.5 rounded-inner border transition-all duration-300 ${
                   showBriefing 
                     ? "bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-500/30" 
                     : "bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10"
@@ -223,13 +223,13 @@ export default function FocusModePage() {
           {/* Active Task Telemetry Card */}
           <motion.div 
             variants={itemVariants}
-            className="bg-[#18181b]/40 backdrop-blur-3xl border border-white/5 rounded-[48px] p-10 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] relative group overflow-hidden border-r-indigo-500/50 border-r-4"
+            className="bg-surface-mid/40 backdrop-blur-3xl border border-white/5 rounded-outer p-10 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] relative group overflow-hidden border-r-indigo-500/50 border-r-4"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
             
             <div className="relative flex flex-row-reverse items-center justify-between mb-10">
                <div className="flex flex-row-reverse items-center gap-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
+                  <div className="w-12 h-12 bg-indigo-600 rounded-inner flex items-center justify-center shadow-lg shadow-indigo-500/20">
                     <Target className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -245,14 +245,14 @@ export default function FocusModePage() {
             </p>
 
             <div className="grid grid-cols-2 gap-4 mt-8 pt-8 border-t border-white/5">
-                <div className="bg-white/5 p-4 rounded-3xl border border-white/5 text-right">
+                <div className="bg-white/5 p-4 rounded-inner border border-white/5 text-right">
                    <p className="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">System State</p>
                    <div className="flex flex-row-reverse items-center gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                       <span className="text-xs font-black text-white">DEEP WORK</span>
                    </div>
                 </div>
-                <div className="bg-white/5 p-4 rounded-3xl border border-white/5 text-right">
+                <div className="bg-white/5 p-4 rounded-inner border border-white/5 text-right">
                    <p className="text-[9px] font-black text-slate-500 uppercase tracking-widest mb-1">Focus Mode</p>
                    <div className="flex flex-row-reverse items-center gap-2">
                       <BrainCircuit size={14} className="text-indigo-400" />
@@ -287,7 +287,7 @@ export default function FocusModePage() {
                         )}
                       </div>
                    </div>
-                   <div className="bg-indigo-500/5 rounded-3xl p-6 border border-indigo-500/10 min-h-[100px] relative">
+                   <div className="bg-indigo-500/5 rounded-inner p-6 border border-indigo-500/10 min-h-[100px] relative">
                       {isBriefingLoading ? (
                         <div className="flex flex-col items-center justify-center gap-3 py-4">
                            <div className="flex gap-1">
@@ -411,7 +411,7 @@ export default function FocusModePage() {
             <div className="absolute -bottom-8 w-full flex justify-center">
               <motion.div 
                 whileHover={{ y: -5 }}
-                className="bg-[#18181b]/80 backdrop-blur-3xl border border-white/10 rounded-full p-2.5 flex items-center gap-3 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.8)]"
+                className="bg-surface-mid/80 backdrop-blur-3xl border border-white/10 rounded-full p-2.5 flex items-center gap-3 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.8)]"
               >
                 {[
                   { id: 'focus', label: 'Work', icon: Flame },
@@ -437,14 +437,14 @@ export default function FocusModePage() {
           <motion.div variants={itemVariants} className="mt-28 flex items-center gap-10">
             <button 
               onClick={resetTimer}
-              className="w-20 h-20 bg-white/5 rounded-[32px] flex items-center justify-center border border-white/10 hover:bg-white/10 transition-all group scale-90 hover:scale-100"
+              className="w-20 h-20 bg-white/5 rounded-outer flex items-center justify-center border border-white/10 hover:bg-white/10 transition-all group scale-90 hover:scale-100"
             >
               <RotateCcw className="w-7 h-7 text-slate-500 group-hover:text-white transition-all group-hover:rotate-[-90deg]" />
             </button>
 
             <button 
               onClick={toggleTimer}
-              className="w-32 h-32 bg-indigo-600 rounded-[44px] flex items-center justify-center shadow-[0_20px_60px_-15px_rgba(99,102,241,0.6)] hover:bg-indigo-500 transform transition-all active:scale-95 group relative overflow-hidden"
+              className="w-32 h-32 bg-indigo-600 rounded-outer flex items-center justify-center shadow-[0_20px_60px_-15px_rgba(99,102,241,0.6)] hover:bg-indigo-500 transform transition-all active:scale-95 group relative overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="p-8 bg-black/10 rounded-full scale-110 group-active:scale-90 transition-transform">
@@ -455,7 +455,7 @@ export default function FocusModePage() {
               </div>
             </button>
 
-            <button className="w-20 h-20 bg-white/5 rounded-[32px] flex items-center justify-center border border-white/10 hover:bg-indigo-600/20 transition-all group scale-90 hover:scale-100">
+            <button className="w-20 h-20 bg-white/5 rounded-outer flex items-center justify-center border border-white/10 hover:bg-indigo-600/20 transition-all group scale-90 hover:scale-100">
                <Cpu className="w-7 h-7 text-slate-500 group-hover:text-indigo-400 transition-colors" />
             </button>
           </motion.div>

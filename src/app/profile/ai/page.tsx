@@ -90,7 +90,7 @@ export default function AIAssistantPage() {
                     <h3 className="text-white font-black">תובנת AI שעתית</h3>
                     <Sparkles size={18} className="text-amber-400" />
                  </div>
-                 <p className="text-xs text-slate-400 leading-relaxed text-right">"זיהיתי ירידה בריכוז בשעה הזו בימי שלישי. ממליץ להעביר את משימות ה-Dev הכבדות לשעות הבוקר."</p>
+                 <p className="text-xs text-slate-400 leading-relaxed text-right">{"זיהיתי ירידה בריכוז בשעה הזו בימי שלישי. ממליץ להעביר את משימות ה-Dev הכבדות לשעות הבוקר."}</p>
               </div>
            </motion.div>
 
@@ -178,7 +178,7 @@ export default function AIAssistantPage() {
                           <Zap size={20} className="text-indigo-400" />
                        </div>
                        <div className="text-right">
-                          <h4 className="text-sm font-black text-white">מצב "טייס אוטומטי"</h4>
+                          <h4 className="text-sm font-black text-white">מצב &quot;טייס אוטומטי&quot;</h4>
                           <p className="text-[10px] text-slate-500 font-bold">אפשר לסוכן לסדר תגיות ועדיפויות לבד&rlm;.</p>
                     </div>
                     </div>

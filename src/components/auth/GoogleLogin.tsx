@@ -7,17 +7,30 @@ import { useRouter } from 'next/navigation';
 export default function GoogleLogin() {
   const router = useRouter();
 
+  const handleCallback = async (response: any) => {
+    try {
+      const result = await loginWithGoogleAction(response.credential);
+      if (result.success) {
+        router.push('/');
+      } else {
+        alert(result.error);
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   useEffect(() => {
     const initGoogle = () => {
-      // @ts-ignore
+      // @ts-expect-error: Global google object is not defined in TS
       if (typeof google !== 'undefined') {
-        // @ts-ignore
+        // @ts-expect-error: Global google object is not defined in TS
         google.accounts.id.initialize({
           client_id: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
           callback: handleCallback,
         });
 
-        // @ts-ignore
+        // @ts-expect-error: Global google object is not defined in TS
         google.accounts.id.renderButton(
           document.getElementById("google-button"),
           { 
@@ -34,20 +47,7 @@ export default function GoogleLogin() {
     // Retry a bit if global isn't there yet
     const timer = setTimeout(initGoogle, 100);
     return () => clearTimeout(timer);
-  }, []);
-
-  const handleCallback = async (response: any) => {
-    try {
-      const result = await loginWithGoogleAction(response.credential);
-      if (result.success) {
-        router.push('/');
-      } else {
-        alert(result.error);
-      }
-    } catch (err) {
-      console.error(err);
-    }
-  };
+  }, [router]);
 
   return (
     <div className="w-full flex justify-center mt-4 mb-2">

@@ -19,7 +19,7 @@ export default function IntelligenceHub({
   urgentCount 
 }: IIntelligenceHubProps) {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12 lg:mb-20">
       {/* Primary AI Intelligence Banner - Spans 2 columns on large screens */}
       <div className="lg:col-span-2">
         <AIPulseCard 

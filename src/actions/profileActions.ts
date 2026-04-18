@@ -70,7 +70,7 @@ export async function logSyncEventAction(data: { deviceId: string; status: 'Succ
     });
 
     return { success: true };
-  } catch (error) {
+  } catch (_error) {
     return { success: false };
   }
 }
@@ -86,7 +86,7 @@ export async function getSecurityReportAction() {
 
     const user = await User.findById(userId).select('lastLogins plan').lean();
     return JSON.parse(JSON.stringify(user));
-  } catch (error) {
+  } catch (_error) {
     return null;
   }
 }

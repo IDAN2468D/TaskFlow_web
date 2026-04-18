@@ -1,0 +1,466 @@
+﻿
+> web@0.1.0 lint
+> eslint
+
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\seed_skills.ts
+  1:8  warning  'mongoose' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\__tests__\activity.actions.test.ts
+  17:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  33:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\__tests__\ai.actions.test.ts
+   6:8   warning  'ActivityLog' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  38:23  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+  39:23  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+  40:20  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+  50:23  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+  54:23  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+  55:20  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\__tests__\taskActions.test.ts
+   4:8   warning  'dbConnect' is defined but never used. Allowed unused vars must match /^_/u           @typescript-eslint/no-unused-vars
+   5:10  warning  'getUserIdFromToken' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  44:22  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+  47:11  warning  'result' is assigned a value but never used. Allowed unused vars must match /^_/u     @typescript-eslint/no-unused-vars
+  66:22  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+  87:22  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\__tests__\userActions.test.ts
+  24:50  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:10  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:63  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\aiActions.ts
+   14:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   29:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   63:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   73:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  135:54  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  153:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  202:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  275:80  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  277:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  333:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  342:64  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  348:59  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  375:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  426:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\authActions.ts
+   71:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  124:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  195:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  241:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  277:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  301:61  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  306:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\driveActions.ts
+  98:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\task.actions.ts
+  39:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  46:60  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\taskActions.ts
+  22:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  53:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  94:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\actions\userActions.ts
+  21:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\ai\page.tsx
+  6:10  warning  'motion' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\analytics\page.tsx
+  4:29  warning  'Clock' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\auth\google\route.ts
+  21:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\auth\login\route.ts
+  14:12  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+  14:17  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\auth\pair\route.ts
+  3:8  warning  'dbConnect' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\auth\profile\route.ts
+  18:14  warning  'e' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+  40:54  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+  68:17  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\auth\register\route.ts
+  14:12  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+  14:17  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\chat\route.ts
+    6:10   warning  'serializeTask' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   38:49   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   39:49   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   48:23   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   48:210  warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   51:50   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   54:24   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   57:22   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   71:59   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   82:62   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  105:23   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  124:19   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\daily-briefing\route.ts
+   13:27  warning  'req' is defined but never used. Allowed unused args must match /^_/u                 @typescript-eslint/no-unused-vars
+   59:44  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+   67:11  warning  'aiMessage' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  101:64  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+  169:19  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\decompose\route.ts
+  20:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\gamification\route.ts
+   22:33  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   28:52  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   40:27  warning  'req' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+   67:50  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   68:52  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   80:19  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+  107:57  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+  166:55  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+  202:19  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\generate-insights\route.ts
+  12:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\generate-prd\route.ts
+  24:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\get-tasks\route.ts
+  12:28  warning  'req' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  30:19  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\get-top-task\route.ts
+   5:10  warning  'getUserIdFromToken' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  10:27  warning  'req' is defined but never used. Allowed unused args must match /^_/u                 @typescript-eslint/no-unused-vars
+  20:19  warning  Unexpected any. Specify a different type                                              @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\stats\route.ts
+  10:27  warning  'req' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  33:19  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\timeline\route.ts
+  17:14  warning  'e' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+  37:19  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\toggle-subtask\route.ts
+  12:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\update-task\route.ts
+   2:10  warning  'updateTaskStatusAction' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  38:19  warning  Unexpected any. Specify a different type                                                  @typescript-eslint/no-explicit-any
+  53:19  warning  Unexpected any. Specify a different type                                                  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\user\focus\route.ts
+  16:20  warning  Unexpected any. Specify a different type                                          @typescript-eslint/no-explicit-any
+  18:12  warning  'error' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+  34:19  warning  Unexpected any. Specify a different type                                          @typescript-eslint/no-explicit-any
+  55:19  warning  Unexpected any. Specify a different type                                          @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\user\skills\route.ts
+   29:54  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+   31:12  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+   55:51  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+   70:19  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+   93:44  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+   95:43  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+  104:58  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+  117:19  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\bridge\weekly-review\route.ts
+   11:27  warning  'req' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+   25:40  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   26:38  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   30:23  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   43:42  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   73:62  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+   88:23  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+  118:19  warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\focus\page.tsx
+  11:3  warning  'ChevronRight' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  16:3  warning  'Shield' is defined but never used. Allowed unused vars must match /^_/u        @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\login\page.tsx
+   7:10  warning  'Zap' is defined but never used. Allowed unused vars must match /^_/u                    @typescript-eslint/no-unused-vars
+   8:58  warning  'loginWithGoogleAction' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  62:14  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u           @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\page.tsx
+   8:10  warning  'Sparkles' is defined but never used. Allowed unused vars must match /^_/u      @typescript-eslint/no-unused-vars
+   8:37  warning  'BrainCircuit' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   8:51  warning  'TrendingUp' is defined but never used. Allowed unused vars must match /^_/u    @typescript-eslint/no-unused-vars
+  28:56  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+  46:50  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+  48:48  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+  51:46  warning  Unexpected any. Specify a different type                                        @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\account\page.tsx
+  11:3  warning  'RefreshCw' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\ai\page.tsx
+   13:3    warning  'Volume2' is defined but never used. Allowed unused vars must match /^_/u          @typescript-eslint/no-unused-vars
+   15:3    warning  'ShieldCheck' is defined but never used. Allowed unused vars must match /^_/u      @typescript-eslint/no-unused-vars
+   20:18   warning  'AnimatePresence' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   93:83   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                    react/no-unescaped-entities
+   93:173  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                    react/no-unescaped-entities
+  181:77   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                    react/no-unescaped-entities
+  181:90   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                    react/no-unescaped-entities
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\notifications\page.tsx
+    5:3   warning  'Bell' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  125:41  warning  'gIdx' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  135:47  warning  'i' is defined but never used. Allowed unused args must match /^_/u     @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\page.tsx
+    4:3   warning  'Settings' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   12:3   warning  'Zap' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   13:3   warning  'Shield' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   14:3   warning  'History' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   31:9   warning  'aiActionsCount' is assigned a value but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   34:57  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+   35:50  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+   35:64  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  101:24  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\security\page.tsx
+    7:3    warning  'Lock' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   23:52   warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-explicit-any
+   27:5    error    Error: Cannot access variable before it is declared
+
+`loadData` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\security\page.tsx:27:5
+  25 |
+  26 |   useEffect(() => {
+> 27 |     loadData();
+     |     ^^^^^^^^ `loadData` accessed before it is declared
+  28 |   }, []);
+  29 |
+  30 |   const loadData = async () => {
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\security\page.tsx:30:3
+  28 |   }, []);
+  29 |
+> 30 |   const loadData = async () => {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |      setIsRefreshing(true);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |      const report = await getSecurityReportAction();
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |      setSecurityData(report);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |      setIsRefreshing(false);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |   };
+     | ^^^^^ `loadData` is declared here
+  36 |
+  37 |   return (
+  38 |     <main className="min-h-screen bg-[#09090b] text-slate-50 p-6 md:p-12 overflow-x-hidden">  react-hooks/immutability
+   96:21   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     react/no-unescaped-entities
+   96:109  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     react/no-unescaped-entities
+  116:60   warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\settings\page.tsx
+  22:10  warning  'config' is assigned a value but never used. Allowed unused vars must match /^_/u     @typescript-eslint/no-unused-vars
+  22:18  warning  'setConfig' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\sync\page.tsx
+   17:3   warning  'Scale' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   18:3   warning  'Calendar' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+   19:3   warning  'Layers' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+   37:50  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-explicit-any
+   38:52  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-explicit-any
+   43:5   error    Error: Cannot access variable before it is declared
+
+`loadHistory` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\sync\page.tsx:43:5
+  41 |   useEffect(() => {
+  42 |     setDeviceId(Math.random().toString(36).substring(7).toUpperCase());
+> 43 |     loadHistory();
+     |     ^^^^^^^^^^^ `loadHistory` accessed before it is declared
+  44 |     loadSecurityReport();
+  45 |   }, []);
+  46 |
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\sync\page.tsx:47:3
+  45 |   }, []);
+  46 |
+> 47 |   const loadHistory = async () => {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |      const logs = await getSyncHistoryAction();
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |      setSyncHistory(logs);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 |   };
+     | ^^^^^ `loadHistory` is declared here
+  51 |
+  52 |   const loadSecurityReport = async () => {
+  53 |      const report = await getSecurityReportAction();                                          react-hooks/immutability
+   44:5   error    Error: Cannot access variable before it is declared
+
+`loadSecurityReport` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\sync\page.tsx:44:5
+  42 |     setDeviceId(Math.random().toString(36).substring(7).toUpperCase());
+  43 |     loadHistory();
+> 44 |     loadSecurityReport();
+     |     ^^^^^^^^^^^^^^^^^^ `loadSecurityReport` accessed before it is declared
+  45 |   }, []);
+  46 |
+  47 |   const loadHistory = async () => {
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\sync\page.tsx:52:3
+  50 |   };
+  51 |
+> 52 |   const loadSecurityReport = async () => {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |      const report = await getSecurityReportAction();
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |      setSecurityData(report);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |   };
+     | ^^^^^ `loadSecurityReport` is declared here
+  56 |
+  57 |   const handleManualSync = async () => {
+  58 |     setIsSyncing(true);  react-hooks/immutability
+  116:17  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  316:78  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-explicit-any
+  348:72  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\profile\theme\page.tsx
+   11:3   warning  'Moon' is defined but never used. Allowed unused vars must match /^_/u             @typescript-eslint/no-unused-vars
+   17:18  warning  'AnimatePresence' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  115:89  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                    react/no-unescaped-entities
+  138:38  warning  'i' is defined but never used. Allowed unused args must match /^_/u                @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\app\register\page.tsx
+   7:10  warning  'Zap' is defined but never used. Allowed unused vars must match /^_/u           @typescript-eslint/no-unused-vars
+  33:14  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\ai\AISuiteContainer.tsx
+  5:10  warning  'Sparkles' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  5:34  warning  'Activity' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  5:44  warning  'Cpu' is defined but never used. Allowed unused vars must match /^_/u       @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\ai\CopilotAssignBtn.tsx
+  34:16  warning  'err' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\ai\VoiceToTask.tsx
+  71:16  warning  'error' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\auth\GoogleLogin.tsx
+  10:43  warning  Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  50:6   warning  React Hook useEffect has a missing dependency: 'handleCallback'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\dashboard\GamificationCard.tsx
+  5:37  warning  'ChevronLeft' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\dashboard\IntelligenceHub.tsx
+   4:10  warning  'motion' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   9:13  warning  Unexpected any. Specify a different type                                  @typescript-eslint/no-explicit-any
+  10:18  warning  Unexpected any. Specify a different type                                  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\layout\DashboardContainer.tsx
+   9:13  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  10:18  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  90:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\layout\Sidebar.tsx
+  23:50  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  89:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\projects\ClientProjectsWrapper.tsx
+   6:31  warning  'LayoutList' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  10:20  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+  15:58  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+  17:40  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\projects\ExportToDriveButton.tsx
+   5:29  warning  'Check' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  23:41  warning  Unexpected any. Specify a different type                                 @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\projects\PRDCreator.tsx
+   9:3   warning  'Target' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  10:3   warning  'Zap' is defined but never used. Allowed unused vars must match /^_/u     @typescript-eslint/no-unused-vars
+  20:22  warning  Unexpected any. Specify a different type                                  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\projects\PRDViewer.tsx
+  5:18  warning  'Target' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  5:31  warning  'Layout' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\tasks\SmartInput.tsx
+  3:17  warning  'useState' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\tasks\TaskBoard.tsx
+  8:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\tasks\TaskCard.tsx
+    7:3   warning  'Lightbulb' is defined but never used. Allowed unused vars must match /^_/u   @typescript-eslint/no-unused-vars
+   15:3   warning  'ArrowRight' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   25:9   warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+  188:46  warning  Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\components\timeline\TeamTimeline.tsx
+  53:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\hooks\useSmartInput.ts
+  11:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:79  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  23:49  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:48  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  73:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\lib\__tests__\utils.test.ts
+  14:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\lib\actions\activity.actions.ts
+  21:14  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  33:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  52:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\lib\actions\ai.actions.ts
+  27:20  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  62:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\lib\authHelper.ts
+  39:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\lib\performance.ts
+  10:41  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:29  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\lib\utils.ts
+  20:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:45  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  43:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  59:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\models\ActivityLog.ts
+  13:29  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\src\models\Task.ts
+  22:40  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Lenovo\Desktop\App\TaskFlow AI\web\test_xp.ts
+  33:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  60:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 235 problems (10 errors, 225 warnings)
+

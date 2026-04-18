@@ -8,6 +8,8 @@ import path from 'path';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'taskflow-secret-key-123';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(req: Request) {
   const logPath = path.join(process.cwd(), 'scratch', 'bridge_debug.log');
   const log = (msg: string) => {
@@ -48,7 +50,7 @@ export async function GET(req: Request) {
 
     log(`Profile Request - Success. Avatar: ${user.avatar ? 'Found' : 'Null'}`);
 
-    return NextResponse.json({
+    const response = NextResponse.json({
       success: true,
       user: {
         id: user._id.toString(),
@@ -57,10 +59,24 @@ export async function GET(req: Request) {
         avatar: user.avatar,
       }
     });
+
+    response.headers.set('Access-Control-Allow-Origin', '*');
+    response.headers.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+    return response;
   } catch (err: any) {
     log(`Profile Request - Error: ${err.message}`);
     console.error('Bridge Profile Error:', err);
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
+}
+
+export async function OPTIONS() {
+  const response = new NextResponse(null, { status: 204 });
+  response.headers.set('Access-Control-Allow-Origin', '*');
+  response.headers.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  return response;
 }
 

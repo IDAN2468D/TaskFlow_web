@@ -13,10 +13,7 @@ import {
   Globe,
   Lock,
   Zap,
-  Network,
-  Scale,
-  Calendar,
-  Layers
+  Network
 } from 'lucide-react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -32,17 +29,11 @@ export default function CloudSyncRedesignPage() {
   const [isSyncing, setIsSyncing] = useState(false);
   const [syncProgress, setSyncProgress] = useState(100);
   const [lastSync, setLastSync] = useState("לפני 4 דקות");
-  const [deviceId, setDeviceId] = useState("");
+  const [deviceId] = useState(() => Math.random().toString(36).substring(7).toUpperCase());
   const [activeModal, setActiveModal] = useState<string | null>(null);
   const [syncHistory, setSyncHistory] = useState<any[]>([]);
   const [securityData, setSecurityData] = useState<any>(null);
   const [isUpgrading, setIsUpgrading] = useState(false);
-
-  useEffect(() => {
-    setDeviceId(Math.random().toString(36).substring(7).toUpperCase());
-    loadHistory();
-    loadSecurityReport();
-  }, []);
 
   const loadHistory = async () => {
      const logs = await getSyncHistoryAction();
@@ -53,6 +44,19 @@ export default function CloudSyncRedesignPage() {
      const report = await getSecurityReportAction();
      setSecurityData(report);
   };
+
+  useEffect(() => {
+    let isMounted = true;
+    const init = async () => {
+      const logs = await getSyncHistoryAction();
+      if (isMounted) setSyncHistory(logs);
+      
+      const report = await getSecurityReportAction();
+      if (isMounted) setSecurityData(report);
+    };
+    init();
+    return () => { isMounted = false; };
+  }, []);
 
   const handleManualSync = async () => {
     setIsSyncing(true);

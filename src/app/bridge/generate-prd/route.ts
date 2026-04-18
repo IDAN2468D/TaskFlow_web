@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generatePRD } from '@/actions/aiActions';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * Mobile Bridge: PRD Generation
  */
@@ -14,9 +16,23 @@ export async function POST(req: NextRequest) {
 
     const prd = await generatePRD(idea);
 
-    return NextResponse.json(prd);
+    const response = NextResponse.json(prd);
+    response.headers.set('Access-Control-Allow-Origin', '*');
+    response.headers.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    return response;
   } catch (error: any) {
     console.error("Bridge PRD Error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    const response = NextResponse.json({ error: error.message }, { status: 500 });
+    response.headers.set('Access-Control-Allow-Origin', '*');
+    return response;
   }
+}
+
+export async function OPTIONS() {
+  const response = new NextResponse(null, { status: 204 });
+  response.headers.set('Access-Control-Allow-Origin', '*');
+  response.headers.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  return response;
 }

@@ -29,7 +29,7 @@ const TaskBoard: React.FC<ITaskBoardProps> = ({ initialTasks }) => {
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="flex flex-col items-center justify-center py-32 px-4 text-center glass rounded-[40px] border-white/5 shadow-2xl"
+        className="flex flex-col items-center justify-center py-32 px-4 text-center glass rounded-outer border-white/5 shadow-2xl"
       >
         <motion.div 
           animate={{ y: [0, -10, 0] }}
@@ -86,7 +86,7 @@ const TaskBoard: React.FC<ITaskBoardProps> = ({ initialTasks }) => {
           animate={{ opacity: 1 }}
           className="col-span-full py-16 flex justify-center"
         >
-           <div className="flex items-center gap-3 text-indigo-400 font-black bg-white/5 px-8 py-3 rounded-full border border-white/10 shadow-xl backdrop-blur-xl">
+           <div className="flex items-center gap-3 text-indigo-400 font-black bg-surface-low px-8 py-3 rounded-button border border-white/10 shadow-xl backdrop-blur-xl">
               <span className="w-2 h-2 rounded-full bg-indigo-500 animate-ping" />
               <span className="tracking-tight uppercase text-sm">טוען משימות נוספות...</span>
            </div>
