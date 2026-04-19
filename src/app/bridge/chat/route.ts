@@ -14,7 +14,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
 export async function POST(req: NextRequest) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromToken();
+    const userId = await getUserIdFromToken(req);
     const { message, history } = await req.json();
 
     if (!message || typeof message !== 'string') {

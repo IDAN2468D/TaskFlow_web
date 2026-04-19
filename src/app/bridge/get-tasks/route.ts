@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     await dbConnect();
     
     // Auth Check
-    const userId = await getUserIdFromToken();
+    const userId = await getUserIdFromToken(req);
     
     // Fetch only user's tasks to ensure synchronization
     const tasks = await Task.find({ userId }).sort({ createdAt: -1 });

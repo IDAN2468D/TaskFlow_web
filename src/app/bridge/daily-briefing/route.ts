@@ -13,7 +13,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 export async function GET(req: NextRequest) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromToken();
+    const userId = await getUserIdFromToken(req);
 
     // Fetch active tasks sorted by priority and due date
     const activeTasks = await Task.find({ userId, status: { $ne: 'Done' } })

@@ -3,6 +3,7 @@ import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
 import * as jwt from 'jsonwebtoken';
 import { cookies } from 'next/headers';
+import { getUserIdFromToken } from '@/lib/authHelper';
 import fs from 'fs';
 import path from 'path';
 
@@ -19,29 +20,12 @@ export async function GET(req: Request) {
   };
 
   try {
-    let token = '';
-    const authHeader = req.headers.get('Authorization');
+    const userId = await getUserIdFromToken(req);
     
-    log(`Profile Request - Header: ${authHeader ? 'Present' : 'Missing'}`);
-
-    if (authHeader && authHeader.startsWith('Bearer ')) {
-      token = authHeader.split(' ')[1];
-    } else {
-      const cookieStore = await cookies();
-      token = cookieStore.get('token')?.value || '';
-      log(`Profile Request - Cookie Token: ${token ? 'Present' : 'Missing'}`);
-    }
-
-    if (!token) {
-      log('Profile Request - Unauthorized (No Token)');
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
-    const decoded = jwt.verify(token, JWT_SECRET) as any;
-    log(`Profile Request - Decoded UserID: ${decoded?.userId}`);
+    log(`Profile Request - UserID: ${userId}`);
 
     await dbConnect();
-    const user = await User.findById(decoded.userId).select('name email avatar');
+    const user = await User.findById(userId).select('name email avatar');
 
     if (!user) {
       log('Profile Request - User not found in DB');

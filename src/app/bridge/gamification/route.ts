@@ -40,7 +40,7 @@ function serializeProgress(doc: any) {
 export async function GET(req: NextRequest) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromToken();
+    const userId = await getUserIdFromToken(req);
 
     let progress = await UserProgress.findOne({ userId });
 
@@ -91,7 +91,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromToken();
+    const userId = await getUserIdFromToken(req);
     const { taskId } = await req.json();
 
     if (!taskId) {

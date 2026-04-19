@@ -1,58 +1,91 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
-import jwt from 'jsonwebtoken';
-import { headers } from 'next/headers';
+import { getUserIdFromToken } from '@/lib/authHelper';
+import fs from 'fs';
+import path from 'path';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'taskflow-secret-key-123';
-
-async function getUserIdFromBridge() {
-  const headersList = await headers();
-  const authHeader = headersList.get('authorization');
-  if (!authHeader || !authHeader.startsWith('Bearer ')) return null;
-
-  const token = authHeader.split(' ')[1];
+const logPath = path.join(process.cwd(), 'scratch', 'bridge_debug.log');
+const log = (msg: string) => {
   try {
-    const decoded: any = jwt.verify(token, JWT_SECRET);
-    return decoded.userId;
-  } catch (error) {
-    return null;
-  }
-}
+    fs.appendFileSync(logPath, `[${new Date().toISOString()}] [FOCUS_BRIDGE] ${msg}\n`);
+  } catch (e) {}
+};
+
+export const dynamic = 'force-dynamic';
 
 /**
  * GET: Fetch focus mode status
  */
-export async function GET() {
+export async function GET(req: Request) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromBridge();
-    if (!userId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    const userId = await getUserIdFromToken(req);
+    log(`GET - UserID: ${userId}`);
 
     const user = await User.findById(userId).select('isFocusModeEnabled');
-    return NextResponse.json({ isFocusModeEnabled: user?.isFocusModeEnabled || false });
+    
+    const response = NextResponse.json({ isFocusModeEnabled: user?.isFocusModeEnabled || false });
+    response.headers.set('Access-Control-Allow-Origin', '*');
+    response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    return response;
   } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    log(`GET Error: ${error.message}`);
+    return NextResponse.json(
+      { error: error.message }, 
+      { 
+        status: error.message.includes('Unauthorized') ? 401 : 500,
+        headers: { 'Access-Control-Allow-Origin': '*' }
+      }
+    );
   }
 }
 
 /**
  * POST: Toggle focus mode status
  */
-export async function POST() {
+export async function POST(req: Request) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromBridge();
-    if (!userId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    const userId = await getUserIdFromToken(req);
+    log(`POST - UserID: ${userId}`);
 
     const user = await User.findById(userId);
-    if (!user) return NextResponse.json({ error: 'User not found' }, { status: 404 });
+    if (!user) {
+      return NextResponse.json(
+        { error: 'User not found' }, 
+        { 
+          status: 404,
+          headers: { 'Access-Control-Allow-Origin': '*' }
+        }
+      );
+    }
 
     const newStatus = !user.isFocusModeEnabled;
     await User.findByIdAndUpdate(userId, { isFocusModeEnabled: newStatus });
 
-    return NextResponse.json({ success: true, isFocusModeEnabled: newStatus });
+    const response = NextResponse.json({ success: true, isFocusModeEnabled: newStatus });
+    response.headers.set('Access-Control-Allow-Origin', '*');
+    response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    return response;
   } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    log(`POST Error: ${error.message}`);
+    return NextResponse.json(
+      { error: error.message }, 
+      { 
+        status: error.message.includes('Unauthorized') ? 401 : 500,
+        headers: { 'Access-Control-Allow-Origin': '*' }
+      }
+    );
   }
+}
+
+export async function OPTIONS() {
+  const response = new NextResponse(null, { status: 204 });
+  response.headers.set('Access-Control-Allow-Origin', '*');
+  response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  return response;
 }

@@ -16,7 +16,7 @@ import { revalidatePath } from 'next/cache';
 export async function POST(req: NextRequest) {
   try {
     await dbConnect();
-    const userId = await getUserIdFromToken();
+    const userId = await getUserIdFromToken(req);
     const body = await req.json();
     
     // Handle both direct status and nested updates object
